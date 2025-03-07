@@ -58,3 +58,7 @@ dvc stage add -n train \
 dvc stage add -n evaluate \
     -d src/evaluate.py -d models/model.pkl -d data/raw/data.csv \
     python src/evaluate.py
+
+
+# Pipeline
+![image](https://github.com/user-attachments/assets/a334599b-7248-4f7b-af14-c47d2874503b)
